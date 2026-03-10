@@ -28,11 +28,11 @@ import (
 	"sync/atomic"
 
 	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/handlers"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/mcontext"
+	"github.com/biggusdonzus/minio/internal/auth"
+	"github.com/biggusdonzus/minio/internal/handlers"
+	xhttp "github.com/biggusdonzus/minio/internal/http"
+	"github.com/biggusdonzus/minio/internal/logger"
+	"github.com/biggusdonzus/minio/internal/mcontext"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

@@ -21,8 +21,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/minio/minio/internal/s3select/jstream"
-	"github.com/minio/minio/internal/s3select/sql"
+	"github.com/biggusdonzus/minio/internal/s3select/jstream"
+	"github.com/biggusdonzus/minio/internal/s3select/sql"
 )
 
 // Limit single document size to 10MiB, 10x the AWS limit:

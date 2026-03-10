@@ -29,25 +29,25 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/minio/minio/internal/ioutil"
+	"github.com/biggusdonzus/minio/internal/ioutil"
 	"google.golang.org/api/googleapi"
 
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/config/dns"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	"github.com/biggusdonzus/minio/internal/auth"
+	"github.com/biggusdonzus/minio/internal/bucket/lifecycle"
+	"github.com/biggusdonzus/minio/internal/bucket/replication"
+	"github.com/biggusdonzus/minio/internal/config/dns"
+	"github.com/biggusdonzus/minio/internal/crypto"
+	"github.com/biggusdonzus/minio/internal/kms"
+	"github.com/biggusdonzus/minio/internal/logger"
 
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/versioning"
-	levent "github.com/minio/minio/internal/config/lambda/event"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/hash"
+	objectlock "github.com/biggusdonzus/minio/internal/bucket/object/lock"
+	"github.com/biggusdonzus/minio/internal/bucket/versioning"
+	levent "github.com/biggusdonzus/minio/internal/config/lambda/event"
+	"github.com/biggusdonzus/minio/internal/event"
+	"github.com/biggusdonzus/minio/internal/hash"
 	"github.com/minio/pkg/v3/policy"
 )
 
@@ -281,7 +281,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/biggusdonzus/minio/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

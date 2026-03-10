@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/replication"
-	xhttp "github.com/minio/minio/internal/http"
+	"github.com/biggusdonzus/minio/internal/bucket/object/lock"
+	"github.com/biggusdonzus/minio/internal/bucket/replication"
+	xhttp "github.com/biggusdonzus/minio/internal/http"
 )
 
 var (

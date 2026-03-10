@@ -24,7 +24,7 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/cachevalue"
+	"github.com/biggusdonzus/minio/internal/cachevalue"
 )
 
 const (
