@@ -34,10 +34,10 @@ import (
 
 	_ "github.com/lib/pq" // Register postgres driver
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/once"
-	"github.com/minio/minio/internal/store"
+	"github.com/biggusdonzus/minio/internal/event"
+	"github.com/biggusdonzus/minio/internal/logger"
+	"github.com/biggusdonzus/minio/internal/once"
+	"github.com/biggusdonzus/minio/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

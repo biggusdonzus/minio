@@ -23,9 +23,9 @@ import (
 	"os"
 
 	// MUST be first import.
-	_ "github.com/minio/minio/internal/init"
+	_ "github.com/biggusdonzus/minio/internal/init"
 
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/biggusdonzus/minio/cmd"
 )
 
 func main() {
